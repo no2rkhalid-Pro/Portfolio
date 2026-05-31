@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "name": "Asp .Net Core",
+        "image": "/src/public/asp.png",
+        "percent" : "60"
+    },
+    {
+        "id": "2",
+        "name": "React Js",
+        "image": "/src/public/react.png",
+        "percent" : "50"
+    },
+    {
+        "id": "3",
+        "name": "Restful API",
+        "image": "/src/public/api.png",
+        "percent" : "40"
+    },    
+    {
+        "id": "4",
+        "name": "TailwindCss",
+        "image": "/src/public/tailwindcss.png",
+        "percent" : "80"
+    },    
+    {
+        "id": "5",
+        "name": "HTML, CSS, JS",
+        "image": "/src/public/html.jfif",
+        "percent" : "90"
+    },    
+    {
+        "id": "6",
+        "name": "Bootstrap",
+        "image": "/src/public/bootstrap.webp",
+        "percent" : "80"
+    },    
+    {
+        "id": "7",
+        "name": "Sql Server",
+        "image": "/src/public/sqlServer.png",
+        "percent" : "70"
+    },    
+    {
+        "id": "8",
+        "name": "Figma",
+        "image": "/src/public/figma.png",
+        "percent" : "80"
+    }        
+]

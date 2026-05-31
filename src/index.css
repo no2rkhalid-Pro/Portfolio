@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Cherry Cream Soda';
+  src: url('/fonts/CherryCreamSoda-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cherry Bomb One';
+  src: url('public/fonts/cherrybombone.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Creepster';
+  src: url('/fonts/Creepster-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibreBaskerville';
+  src: url('/fonts/LibreBaskerville-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CapricaSans';
+  src: url('/fonts/CapricaSansPersonalUse.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.links > .link {
+    @apply cursor-pointer font-bold text-base md:text-xl capitalize transition-all duration-300 text-blackColor hover:text-mainColor font-bomb ; 
+}
+
+.mainBtn {
+    @apply px-6 py-3 text-whiteColor capitalize rounded-lg cursor-pointer bg-mainColor drop-shadow-md font-bomb text-xl;
+}
+.secondaryBtn {
+    @apply px-6 py-3 text-mainColor border-2 border-mainColor capitalize rounded-lg cursor-pointer bg-whiteColor drop-shadow-md hover:bg-mainColor font-bomb text-xl hover:text-whiteColor transition-all duration-300;
+}
+.orderItems {
+  @apply flex justify-center items-center
+}
+.space {
+  @apply px-5 sm:px-12 md:px-20 py-4
+}
+.line-height {
+  line-height: 40px;
+}
+  .active {
+    @apply text-mainColor ;
+  }
+}
