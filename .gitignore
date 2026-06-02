@@ -22,4 +22,8 @@ Thumbs.db
 *.ntvs*
 *.njsproj
 *.sln
+
 *.sw?
+.firebase
+firebase-debug.log
+firebase-debug.*.log

@@ -2,55 +2,55 @@
     {
         "id": "1",
         "name": "Asp .Net Core",
-        "image": "/src/public/asp.png",
+        "image": "/asp.png",
         "percent" : "60"
     },
     {
         "id": "2",
         "name": "React Js",
-        "image": "/src/public/react.png",
+        "image": "/react.png",
         "percent" : "50"
     },
     {
         "id": "3",
         "name": "Restful API",
-        "image": "/src/public/api.png",
+        "image": "/api.png",
         "percent" : "40"
     },    
     {
         "id": "4",
         "name": "TailwindCss",
-        "image": "/src/public/tailwindcss.png",
+        "image": "/tailwindcss.png",
         "percent" : "80"
     },    
     {
         "id": "5",
         "name": "HTML, CSS, JS",
-        "image": "/src/public/html.jfif",
+        "image": "/html.jfif",
         "percent" : "90"
     },    
     {
         "id": "6",
         "name": "Bootstrap",
-        "image": "/src/public/bootstrap.webp",
+        "image": "/bootstrap.webp",
         "percent" : "80"
     },    
     {
         "id": "7",
         "name": "Sql Server",
-        "image": "/src/public/sqlServer.png",
+        "image": "/sqlServer.png",
         "percent" : "70"
     },    
     {
         "id": "8",
         "name": "Figma",
-        "image": "/src/public/figma.png",
+        "image": "/figma.png",
         "percent" : "80"
     },    
     {
         "id": "9",
         "name": "Gsap",
-        "image": "/src/public/gsap.png",
+        "image": "/gsap.png",
         "percent" : "30"
     }         
 ]
