@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../../public/hero.png";
+import heroImage from "/assets/hero.png";
 import Button from "../utilities/Button";
 export default function Hero(){
     return (

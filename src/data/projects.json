@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Kids Toys Store",
     "description": "A simple e-commerce website for children’s toys that allows users to browse products and place orders easily.",
-    "image": "/kidstoys.png",
+    "image": "/assets/kidstoys.png",
     "role" : "Full-Stack Developer",
     "technologies": [
       "ASP.NET Core",
@@ -18,7 +18,7 @@
     "id": 2,
     "title": "Winter's Resturant",
     "description": "An online food ordering website with cart and checkout features.",
-    "image": "/resturant.png",
+    "image": "/assets/resturant.png",
     "role" : "Front-end Developer",
     "technologies": [
       "React JS",
@@ -32,7 +32,7 @@
     "id": 3,
     "title": "Portfolio Website",
     "description": "A personal portfolio website to showcase my projects and skills.",
-    "image": "/portfolioimg.png",
+    "image": "/assets/portfolioimg.png",
     "role" : "Front-end Developer",
     "technologies": [
       "React",
