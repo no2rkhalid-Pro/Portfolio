@@ -10,19 +10,23 @@
       "SQL Server",
       "Bootstrap",
       "HTML, CSS, JS"  
-    ]
+    ],
+    "liveDemoLink": "http://kidtoys.runasp.net/",
+    "githubLink": "https://github.com/no2rkhalid-Pro/kids-Toys.git"
   },
   {
     "id": 2,
     "title": "Winter's Resturant",
     "description": "An online food ordering website with cart and checkout features.",
     "image": "/src/public/resturant.png",
-    "role" : "Full-Stack Developer",
+    "role" : "Front-end Developer",
     "technologies": [
       "React JS",
-      "Restful API",
-      "SQL Server"
-    ]
+      "Tailwind CSS",
+      "Gsap"
+    ],
+    "liveDemoLink": "https://winter-resturant-b1a9a.web.app/",
+    "githubLink": "https://github.com/no2rkhalid-Pro/Winter-Resturant.git"
   },
   {
     "id": 3,
@@ -33,6 +37,8 @@
     "technologies": [
       "React",
       "Tailwind CSS"
-    ]
+    ],
+    "liveDemoLink": " ",
+    "githubLink": "https://github.com/no2rkhalid-Pro/Portfolio.git"    
   }
 ]

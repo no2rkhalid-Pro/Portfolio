@@ -8,7 +8,7 @@ export default function Projects() {
             <div className="flex items-center justify-between flex-wrap py-10  w-full flex-col gap-10">
                 {
                     projects.map((project) => (
-                        <Project  key={project.id} title={project.title} img={project.image} role={project.role} desc={project.description} technologies={project.technologies} />
+                        <Project  key={project.id} title={project.title} img={project.image} role={project.role} desc={project.description} technologies={project.technologies} liveDemoLink={project.liveDemoLink} githubLink={project.githubLink} />
                     ))
                 }
             </div>

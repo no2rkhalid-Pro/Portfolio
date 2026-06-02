@@ -46,5 +46,11 @@
         "name": "Figma",
         "image": "/src/public/figma.png",
         "percent" : "80"
-    }        
+    },    
+    {
+        "id": "9",
+        "name": "Gsap",
+        "image": "/src/public/gsap.png",
+        "percent" : "30"
+    }         
 ]

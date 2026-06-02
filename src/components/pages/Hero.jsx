@@ -14,7 +14,7 @@ export default function Hero(){
                 <p className="text-xl md:text-2xl font-cherry text-mainColor text-center md:min-w-28 lg:min-w-20 mb-8">Turning ideas into modern, responsive, and high-performance websites.</p>
                 <div className="orderItems gap-6">
                     <Button link={'#projects'} text="My Projects" classes={'mainBtn'}  />
-                    <Button link={'#contact'} text="Contact Me" classes={'secondaryBtn'} />
+                    <a className="secondaryBtn" download href="/CV_Noor.pdf" >Download CV</a>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 import Index from './../../../routes/Index';
 
-export default function Project({img, title, desc, role, technologies}) {
+export default function Project({img, title, desc, role, technologies, liveDemoLink, githubLink}) {
     return (
         <>
         <div className="w-full lg:w-5/6 shadow-sm flex-col lg:flex-row bg-whiteColor flex justify-between items-center rounded-lg gap-6 p-6 lg:px-4 lg:py-5 border border-mainColor duration-300 hover:-translate-y-4">
@@ -22,8 +22,8 @@ export default function Project({img, title, desc, role, technologies}) {
                 <div className="flex justify-between items-center w-full flex-wrap lg:flex-nowrap gap-5 lg:gap-0">
                     <p className="text-blackColor text-lg ">Role: <span className="font-bomb">{role}</span></p>
                     <div className="flex justify-end items-center border border-[#D9D9D9] rounded-md  font-bomb">
-                        <button className="p-3 border-r border-[#D9D9D9] bg-mainColor rounded-s-md text-whiteColor" >Live Demo</button>
-                        <button className="p-3 rounded-e-md text-mainColor hover:bg-mainColor hover:text-whiteColor transition-all duration-300">Github</button>
+                        <a href={liveDemoLink} className="p-3 border-r border-[#D9D9D9] bg-mainColor rounded-s-md text-whiteColor" >Live Demo</a>
+                        <a href={githubLink}  className="p-3 rounded-e-md text-mainColor hover:bg-mainColor hover:text-whiteColor transition-all duration-300">Github</a>
                     </div>
                 </div>
             </div>
